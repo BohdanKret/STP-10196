@@ -1,34 +1,58 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-p {
+p,
+ul,
+ol,
+li {
   margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 p:last-child {
   margin-bottom: 0;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+.text-uppercase {
+  text-transform: uppercase;
 }
 
 a {
-  color: currentColor;
+  color: inherit;
   text-decoration: none;
 }
 
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
 button {
+  border: none;
   cursor: pointer;
+  font: inherit;
 }
 
 img {
   display: block;
-  max-width: 100%;
   height: auto;
 }
