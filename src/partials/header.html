@@ -1,0 +1,56 @@
+<header class="header">
+  <div class="container header-container">
+    <nav class="header_nav">
+      <a class="header_nav-logo" href="./index.html"
+        ><picture>
+          <source
+            srcset="
+              ./img/header/logo-desc-1x.avif 1x,
+              ./img/header/logo-desc-2x.avif 2x
+            "
+            media="(min-width:1200px)"
+          />
+          <source
+            srcset="
+              ./img/header/logo-mob-1x.avif 1x,
+              ./img/header/logo-mob-2x.avif 2x
+            "
+            media="(max-width:1198px)"
+          />
+          <img
+            src="./img/header/logo-desc-2x.avif"
+            alt="logo-img"
+            width="46"
+          />
+        </picture
+      ></a>
+
+      <ul class="header_nav-list">
+        <li>
+          <a class="header_nav-link current" href="./index.html">Home</a>
+        </li>
+        <li><a class="header_nav-link" href="#about">About the Game</a></li>
+        <li><a class="header_nav-link" href="#features">Key Features</a></li>
+        <li><a class="header_nav-link" href="#game-modes">Game Modes</a></li>
+        <li><a class="header_nav-link" href="#gallery">Gallery</a></li>
+        <li><a class="header_nav-link" href="#faq">FAQ</a></li>
+        <li><a class="header_nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <button type="button" class="header_menu-btn" id="openMenuBtn">
+      <svg width="24" height="20" class="header_open-menu-icon icons">
+        <use href="/icons.svg#icon-grid"></use>
+      </svg>
+    </button>
+    <button
+      type="button"
+      class="header_menu-btn visually-hidden"
+      id="closeMenuBtn"
+    >
+      <svg width="24" height="24" class="header_close-menu-btn icons">
+        <use href="/icons.svg#icon-x"></use>
+      </svg>
+    </button>
+  </div>
+</header>
