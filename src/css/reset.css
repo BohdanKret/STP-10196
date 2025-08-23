@@ -47,6 +47,7 @@ a:not([class]) {
 }
 
 button {
+  padding: 0;
   border: none;
   cursor: pointer;
   font: inherit;
