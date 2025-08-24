@@ -1,0 +1,72 @@
+.section-download {
+  margin-bottom: 42px;
+}
+.cont-title-download {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-bottom: 12px;
+}
+.title-download {
+  font-family: Spectral;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 48px;
+  color: #4f380b;
+  line-height: 54px;
+  letter-spacing: 0%;
+}
+.paragraf-download {
+  font-family: Spectral;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  color: #4f380b;
+  line-height: 28px;
+  letter-spacing: 0%;
+}
+.img-download {
+  padding-bottom: 16px;
+}
+.title-btn-google {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.google-play-button {
+  display: flex;
+  height: 70px;
+  background-color: #285837;
+
+  padding: 16px 48px;
+  border-radius: 16px;
+  margin-left: 9px;
+  margin-right: 9px;
+  justify-content: center; /* Центрує вміст по горизонталі */
+  align-items: center;
+}
+.google-icon {
+  width: 34px;
+  height: 38px;
+}
+
+.text-bottom {
+  font-family: Spectral;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  color: #f4f3f3;
+  line-height: 28px;
+  letter-spacing: 0%;
+  /* vertical-align: middle; */
+}
+
+/* Ефект при наведенні курсору */
+.google-play-button:hover {
+  background-color: #2c2c2c;
+}
+
+/* Ефект при кліку */
+.google-play-button:active {
+  background-color: #444;
+}

@@ -1,0 +1,113 @@
+/* .container {
+  padding: 0;
+} */
+.accordion-top-title {
+  font-family: Spectral;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 32px;
+  color: #4f380b;
+
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 18px;
+}
+/* Базові стилі контейнера акордеону */
+.container-accordeon {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+
+  /* padding: 16px 8px; */
+
+  margin-bottom: 42px;
+}
+
+/* Кожен окремий елемент акордеону */
+.accordion-item {
+  border-radius: 16px;
+  background-color: #285837; /* фон тепер тут */
+  overflow: hidden; /* щоб контент не вилазив за округлення */
+}
+
+/* Заголовок акордеону */
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 12px 12px 12px 12px;
+  background-color: #285837;
+  cursor: pointer;
+  border: none;
+}
+
+/* Додаємо розділювач, коли акордеон розгорнутий */
+.accordion-item.active .accordion-header::after {
+  content: '';
+  display: block;
+  width: calc(100% - 24px); /* Встановлюємо ширину, віднімаючи відступи */
+  height: 1px; /* Висота лінії */
+  background-color: #f4f3f3; /* Колір лінії */
+  margin-left: 12px; /* Відступ зліва, щоб лінія була всередині */
+  position: absolute; /* Позиціонуємо відносно .accordion-header */
+  bottom: 0; /* Притискаємо лінію до низу */
+  left: 0;
+}
+
+.accordion-item.active .accordion-header {
+  position: relative; /* Додаємо відносне позиціонування для псевдоелемента */
+  /* padding-bottom: 12px;  Можливо, вам знадобиться додати відступ, щоб лінія не накладалась на текст */
+}
+
+/* Стилі для прихованого контенту */
+.accordion-content {
+  /* background-color: #285837; */
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+  color: #f4f3f3;
+  font-family: Spectral;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/* Стилі для заголовка */
+.accordion-title {
+  font-family: Spectral;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #f4f3f3;
+}
+
+/* Стилі для іконки (+/-) */
+.accordion-icon {
+  font-size: 26px;
+  color: #f4f3f3;
+  transition: transform 0.3s ease;
+}
+
+/* Клас для активного стану (коли акордеон розгорнутий) */
+.accordion-item.active .accordion-content {
+  max-height: 200px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+
+/* .accordion-item.active .accordion-icon {
+  transform: rotate(18deg); 
+} */
+
+@media screen and (min-width: 1200px) {
+  .container-accordeon {
+    width: 896px;
+    margin: 0 auto;
+  }
+}
