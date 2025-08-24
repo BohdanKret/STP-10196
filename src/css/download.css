@@ -1,6 +1,5 @@
 .section-download {
   margin-bottom: 62px;
-  position: relative;
 }
 .cont-title-download {
   display: flex;
@@ -28,6 +27,8 @@
 }
 .img-download {
   padding-bottom: 16px;
+  display: flex;
+  justify-content: center;
 }
 .title-btn-google {
   display: flex;
@@ -72,6 +73,7 @@
 
 @media screen and (min-width: 1200px) {
   .section-download {
+    position: relative;
     display: flex;
     width: auto;
     align-items: center;
