@@ -39,3 +39,19 @@
   width: 288 px;
   height: 48 px;
 }
+
+@media screen and (min-width: 1200px) {
+  .footer-links {
+    flex-direction: row;
+
+    margin: 0 auto;
+    width: 948px;
+    height: 68px;
+    gap: 14px;
+    margin-bottom: 16px;
+  }
+  .paragraf-footer {
+    width: 303 px;
+    height: 24 px;
+  }
+}
