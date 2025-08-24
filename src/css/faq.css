@@ -33,6 +33,14 @@
   overflow: hidden; /* щоб контент не вилазив за округлення */
 }
 
+.accordion-icon {
+  width: 26px;
+  height: 26px;
+  color: #f4f3f3; /* Застосовуємо колір, який успадкує currentColor */
+  /* Також можна додати transition, як у вас було */
+  transition: transform 0.3s ease;
+}
+
 /* Заголовок акордеону */
 .accordion-header {
   display: flex;
@@ -88,11 +96,6 @@
 }
 
 /* Стилі для іконки (+/-) */
-.accordion-icon {
-  font-size: 26px;
-  color: #f4f3f3;
-  transition: transform 0.3s ease;
-}
 
 /* Клас для активного стану (коли акордеон розгорнутий) */
 .accordion-item.active .accordion-content {

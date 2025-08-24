@@ -14,10 +14,10 @@ accordionHeaders.forEach(header => {
     // Оновлюємо посилання на іконку
     if (isActive) {
       // Якщо акордеон був активний (і мав стрілку вниз), ставимо стрілку вгору
-      iconUse.setAttribute('href', './img/icons.svg#icon-up');
+      iconUse.setAttribute('href', './public/icons.svg#icon-arrow-up');
     } else {
       // Якщо акордеон був закритий, ставимо стрілку вниз
-      iconUse.setAttribute('href', './img/icons.svg#icon-down');
+      iconUse.setAttribute('href', './public/icons.svg#icon-arrow-down');
     }
   });
 });
