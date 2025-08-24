@@ -1,4 +1,8 @@
-.section-galery {
+.swiper-theme-color {
+  color: #4f380b;
+}
+.mySwiper {
+  --swiper-theme-color: var(--color-primary);
 }
 
 .tytle-galery {
@@ -17,8 +21,6 @@
   height: 314px;
 }
 
-.swiper-wrapper {
-}
 .swiper-slide {
   display: flex;
   justify-content: center;
@@ -54,7 +56,7 @@
   width: 100%;
   height: 100%;
   /* Задаємо колір обводки, щоб змінити колір стрілочки */
-  stroke: #4f380b; /* Тут задайте свій бажаний колір */
+  color: #4f380b; /* Тут задайте свій бажаний колір */
 }
 
 /* Налаштовуємо позиціонування */
@@ -65,6 +67,7 @@
 .swiper-button-next {
   right: 10px; /* Відступ від правого краю */
 }
+
 @media screen and (min-width: 1200px) {
   .tytle-galery {
     font-size: 48px;

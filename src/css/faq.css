@@ -36,8 +36,7 @@
 .accordion-icon {
   width: 26px;
   height: 26px;
-  color: #f4f3f3; /* Застосовуємо колір, який успадкує currentColor */
-  /* Також можна додати transition, як у вас було */
+  color: var(--color-bg-accent);
   transition: transform 0.3s ease;
 }
 
