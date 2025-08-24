@@ -1,39 +1,47 @@
+import Swiper from "swiper/bundle";
+import "swiper/css/bundle";
 
- import Swiper from "swiper/bundle";
- import "swiper/css/bundle";
+// Ініціалізуємо Swiper після повного завантаження сторінки
+window.addEventListener('load', () => {
+  const swiper = new Swiper(".mySwiper", {
+    loop: true,
+    spaceBetween: 10,
+    centeredSlides: true,
 
-
-
-const swiper = new Swiper(".mySwiper", {
-    loop: true, 
-    // slidesPerView: 1, 
-    spaceBetween: 10, 
-     centeredSlides: true, // Додайте цей рядок
-
-    // Навігація
     navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
     },
 
-    // Пагінація
     pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
+      el: ".swiper-pagination",
+      clickable: true,
     },
-     breakpoints: {
-    // 📱 мобільна версія
-    0: {
-      slidesPerView: 1, // лише 1 слайд
-    },
-    // 🖥 десктопна версія
-    1200: {
-      slidesPerView: 1, // кілька слайдів
-      keyboard: {
-        enabled: true,
-        onlyInViewport: true,
+
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      
+      1200: {
+        slidesPerView: 3,
+        spaceBetween: 0, // У Coverflow відступи керуються іншим параметром
+        effect: 'coverflow', // Це саме те, що створює 3D-ефект
+        coverflowEffect: { // Налаштування ефекту
+          rotate: 0,
+          stretch: 0,
+          depth: 0,
+          modifier: 1,
+          slideShadows: false,
+          // scale: 0.8,
+        },
+        centeredSlides: true,
+        initialSlide: 1, // Починаємо з центрального слайда
+        keyboard: {
+          enabled: true,
+          onlyInViewport: true,
+        },
       },
     },
-  },
+  });
 });
-  
