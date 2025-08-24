@@ -42,8 +42,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 178;
-  height: 94;
+  width: 178 px;
+  height: 94 px;
 }
 .contact-social-title {
   font-family: Spectral;
@@ -60,4 +60,33 @@
   gap: 32px;
   width: 128px;
   height: 48px;
+}
+
+@media screen and (min-width: 1200px) {
+  .container-contact {
+    margin-bottom: 69px;
+  }
+  .title-contact {
+    padding-bottom: 24px;
+    font-size: 48px;
+    line-height: 54px;
+  }
+  .contact-adderss {
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 20px;
+  }
+  .contact-email {
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 20px;
+  }
+  .contact-social-title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .social-group {
+    width: 213 px;
+    height: 92 px;
+  }
 }
