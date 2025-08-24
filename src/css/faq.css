@@ -38,7 +38,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 12px 12px 12px 12px;
+  padding: 12px;
   background-color: #285837;
   cursor: pointer;
   border: none;
@@ -88,8 +88,33 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .section-accordion {
+    margin-bottom: 146px;
+  }
   .container-accordeon {
     width: 896px;
     margin: 0 auto;
+  }
+  .accordion-top-title {
+    font-size: 48px;
+    line-height: 54px;
+    margin-bottom: 24px;
+  }
+  .accordion-header {
+    padding: 32px;
+  }
+  .accordion-title {
+    font-size: 32px;
+    line-height: 24px;
+  }
+  .accordion-content {
+    font-size: 24px;
+    line-height: 48px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .accordion-item.active .accordion-header::after {
+    width: calc(100% - 64px);
+    margin-left: 32px;
   }
 }
