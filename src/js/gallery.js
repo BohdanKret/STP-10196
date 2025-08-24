@@ -28,7 +28,7 @@ const swiper = new Swiper(".mySwiper", {
     },
     // 🖥 десктопна версія
     1200: {
-      slidesPerView: 3, // кілька слайдів
+      slidesPerView: 1, // кілька слайдів
       keyboard: {
         enabled: true,
         onlyInViewport: true,
