@@ -30,11 +30,7 @@
     display: none;
 }
 
-.visually-hidden {}
-
-.header_nav-link {}
-
-.current {}
+/* .header_nav-link {} */
 
 .header_menu-btn {
     background: transparent;

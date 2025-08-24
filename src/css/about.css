@@ -1,0 +1,19 @@
+.about {}
+
+.about__container {}
+
+.about__img-wrapper {}
+
+.about__text-wrapper {}
+
+.about__title {}
+
+.about__text {}
+
+.about__image-wrapper {
+    position: relative;
+}
+
+.image-top-left img {
+  position: absolute;
+}
