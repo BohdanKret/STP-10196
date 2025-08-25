@@ -27,9 +27,13 @@
 }
 .img-download {
   padding-bottom: 16px;
-  display: flex;
-  justify-content: center;
 }
+.img-download img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 .title-btn-google {
   display: flex;
   gap: 8px;
@@ -80,6 +84,7 @@
     /* padding-left: 60px; */
     justify-content: space-between;
     height: 667px;
+    /* margin-bottom: 60px; */
   }
 
   .cont-title-download {

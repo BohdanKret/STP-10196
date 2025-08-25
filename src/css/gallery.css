@@ -6,7 +6,7 @@
   /* --swiper-navigation-size: 48px; */
 }
 
-.tytle-galery {
+.tytle-gallery {
   font-family: Spectral;
   font-weight: 400;
   font-style: Regular;
@@ -78,8 +78,13 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .tytle-galery {
+  .section-gallery {
+    margin-bottom: 60px;
+  }
+  .tytle-gallery {
     font-size: 48px;
+    line-height: 54px;
+    margin-bottom: 24px;
   }
 
   .swiper-slide img {
