@@ -5,7 +5,7 @@ import "swiper/css/bundle";
 window.addEventListener('load', () => {
   const swiper = new Swiper(".mySwiper", {
     loop: true,
-    spaceBetween: 10,
+    spaceBetween: 0,
     centeredSlides: true,
 
     navigation: {
@@ -44,4 +44,4 @@ window.addEventListener('load', () => {
       },
     },
   });
-});
+}); 
