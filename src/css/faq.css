@@ -64,15 +64,17 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease-in-out;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.accordion-content p {
   color: #f4f3f3;
   font-family: Spectral;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  padding-left: 8px;
-  padding-right: 8px;
 }
-
 .accordion-title {
   font-family: Spectral;
   font-weight: 600;
@@ -108,10 +110,12 @@
     line-height: 24px;
   }
   .accordion-content {
-    font-size: 24px;
-    line-height: 64px;
     padding-left: 32px;
     padding-right: 32px;
+  }
+  .accordion-content p {
+    font-size: 24px;
+    line-height: 64px;
   }
   .accordion-item.active .accordion-header::after {
     width: calc(100% - 64px);
