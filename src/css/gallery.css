@@ -3,7 +3,6 @@
 }
 .mySwiper {
   --swiper-theme-color: var(--color-primary);
-  /* --swiper-navigation-size:  */
   --swiper-navigation-size: 48px;
 }
 
@@ -18,16 +17,11 @@
   text-align: center;
   margin-bottom: 18px;
 }
-/* .swiper {
-  width: 288px;
-  height: 314px;
-} */
 
-/* Контейнер Swiper */
 .swiper {
   width: 288px;
   height: 314px;
-  position: relative; /* Критично для позиціонування кнопок */
+  position: relative;
   overflow: hidden;
 }
 
@@ -44,17 +38,12 @@
   object-fit: cover;
   margin: 0 auto;
 }
-/* стилі для кнопок */
-/* Стилі для контейнерів кнопок навігації */
+
 .swiper-button-prev,
 .swiper-button-next {
-  /* width: 48px; */
-  /* height: 48px; */
-  /* Забезпечуємо, що іконка центрується всередині контейнера */
   display: flex;
   justify-content: center;
   align-items: center;
-  /* Видаляємо стандартні стилі, якщо вони є */
   background-color: transparent;
   cursor: pointer;
   z-index: 10;
@@ -76,11 +65,11 @@
   height: 12px;
 }
 .mySwiper .swiper-pagination-bullet-active {
-  width: 24px; /* Збільшуємо ширину, щоб зробити прямокутником */
+  width: 24px;
   height: 12px;
 
   opacity: 1;
-  border-radius: 10px; /* Видаляємо скруглення */
+  border-radius: 10px; 
 }
 @media screen and (min-width: 1200px) {
   .section-gallery {

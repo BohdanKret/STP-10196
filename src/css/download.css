@@ -81,11 +81,9 @@
     display: flex;
     width: auto;
     align-items: center;
-    /* padding-left: 60px; */
     justify-content: space-between;
     height: 667px;
-    /* margin-bottom: 60px; */
-  }
+   }
 
   .cont-title-download {
     flex-shrink: 0;
