@@ -1,0 +1,147 @@
+.policy-container {
+  padding: 0 16px;
+  width: 288px;
+}
+.go-back {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 24px;
+  color: #285837;
+  line-height: 28px;
+
+  text-align: center;
+  width: 168px;
+  height: 30px;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+.go-back a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.icon {
+  color: #4f380b;
+}
+.title-police {
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 40px;
+  color: #4f380b;
+  line-height: 48px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  width: 288px;
+  height: 68px;
+}
+.first-paragraf {
+  width: 288px;
+  height: auto;
+  margin-bottom: 32px;
+}
+.general-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+.list-paragraf {
+  width: 288px;
+  height: auto;
+}
+.paragraf-police {
+  color: #4f380b;
+  font-family: Spectral;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 22px;
+}
+.last-updated {
+  font-family: Spectral;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 20px;
+  color: #616161;
+  line-height: 30px;
+  letter-spacing: 0%;
+  width: 224px;
+  height: 30px;
+  margin-bottom: 30px;
+}
+
+.title-paragraf {
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 24px;
+  color: #4f380b;
+  line-height: 28px;
+  letter-spacing: 0%;
+  padding-bottom: 8px;
+}
+.item-paragraf {
+  color: #4f380b;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 22px;
+  width: 288px;
+}
+.item-paragraf li {
+  width: 268px;
+  list-style-type: disc;
+  list-style-position: outside;
+}
+ul.item-paragraf {
+  padding-left: 20px;
+}
+.item-link {
+  color: #1a73e8;
+  font-family: Spectral;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 22px;
+}
+.item-link li {
+  width: 288px;
+  list-style-type: disc;
+  list-style-position: outside;
+}
+ul.item-link {
+  padding-left: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .policy-container {
+    padding: 0 60px;
+    width: 1200px;
+  }
+  .title-police {
+    width: 414px;
+    height: 98px;
+    font-size: 64px;
+
+    line-height: 96px;
+  }
+  .first-paragraf {
+    width: 1080px;
+  }
+  .list-paragraf {
+    width: 1080px;
+  }
+  .last-updated {
+    width: 1080px;
+  }
+  .item-paragraf {
+    width: 1080px;
+  }
+  .item-paragraf li {
+    width: 1080px;
+  }
+  .item-link li {
+    width: 1080px;
+  }
+}

@@ -1,6 +1,5 @@
 .section-download {
-  margin-bottom: 42px;
-  position: relative;
+  margin-bottom: 62px;
 }
 .cont-title-download {
   display: flex;
@@ -29,6 +28,12 @@
 .img-download {
   padding-bottom: 16px;
 }
+.img-download img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 .title-btn-google {
   display: flex;
   gap: 8px;
@@ -70,28 +75,46 @@
   background-color: #444;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
   .section-download {
+    position: relative;
     display: flex;
-    width: 100%;
+    width: auto;
     align-items: center;
-    padding-left: 60px;
     justify-content: space-between;
     height: 667px;
-  }
+   }
 
-  .cont-title-download,
-  .google-play-button {
+  .cont-title-download {
     flex-shrink: 0;
+    width: 511px;
+    gap: 32px;
+    margin-bottom: 48px;
   }
+  .google-play-button {
+    width: 270px;
+    height: 70px;
+    margin: 0;
+  }
+  .title-download {
+    font-size: 64px;
 
+    line-height: 74px;
+  }
+  .paragraf-download {
+    font-family: Spectral;
+
+    font-size: 36px;
+
+    line-height: 44px;
+  }
   .img-download {
     position: absolute;
     right: 0;
     top: 50%;
     transform: translateY(-50%);
-    width: 667px;
-    height: 667px;
+    width: 510px;
+    height: 767px;
   }
 
   .img-download img {
