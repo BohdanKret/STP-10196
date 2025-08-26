@@ -23,11 +23,9 @@
   align-items: center;
   gap: 8px;
 }
-
 .icon {
   color: #4f380b;
 }
-
 .title-police {
   font-weight: 600;
   font-style: SemiBold;
@@ -84,7 +82,6 @@
   letter-spacing: 0%;
   padding-bottom: 8px;
 }
-
 .item-paragraf {
   color: #4f380b;
   font-weight: 400;
@@ -109,7 +106,6 @@ ul.item-paragraf {
   font-size: 18px;
   line-height: 22px;
 }
-
 .item-link li {
   width: 288px;
   list-style-type: disc;
@@ -118,7 +114,6 @@ ul.item-paragraf {
 ul.item-link {
   padding-left: 20px;
 }
-
 @media screen and (min-width: 1200px) {
   .policy-container {
     padding: 0 60px;
