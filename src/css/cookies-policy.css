@@ -1,8 +1,8 @@
-.terms-container {
+.cookies-container {
   padding: 0 16px;
   width: 288px;
 }
-.back-link {
+.return-link {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -17,15 +17,15 @@
   margin-top: 32px;
   margin-bottom: 24px;
 }
-.back-link a {
+.return-link a {
   display: inline-flex;
   align-items: center;
   gap: 8px;
 }
-.link-icon {
+.return-icon {
   color: #4f380b;
 }
-.terms-title {
+.cookies-title {
   font-weight: 600;
   font-style: SemiBold;
   font-size: 40px;
@@ -34,25 +34,24 @@
   letter-spacing: 0%;
   vertical-align: middle;
   width: 288px;
-  height: auto;
-  margin-bottom: 22px;
+  height: 68px;
 }
-.intro-paragraph-wrapper {
+.intro-section {
   width: 288px;
   height: auto;
   margin-bottom: 32px;
 }
-.terms-list {
+.policy-list {
   display: flex;
   flex-direction: column;
   gap: 24px;
   margin-bottom: 32px;
 }
-.list-item-section {
+.policy-section {
   width: 288px;
   height: auto;
 }
-.terms-text {
+.cookies-text {
   color: #4f380b;
   font-family: Spectral;
   font-weight: 400;
@@ -60,7 +59,7 @@
   font-size: 18px;
   line-height: 22px;
 }
-.updated-date {
+.policy-date {
   font-family: Spectral;
   font-weight: 600;
   font-style: SemiBold;
@@ -73,7 +72,7 @@
   margin-bottom: 30px;
 }
 
-.section-heading {
+.section-title {
   font-weight: 600;
   font-style: SemiBold;
   font-size: 24px;
@@ -82,7 +81,7 @@
   letter-spacing: 0%;
   padding-bottom: 8px;
 }
-.bullet-list {
+.cookie-list {
   color: #4f380b;
   font-weight: 400;
   font-style: Regular;
@@ -90,15 +89,15 @@
   line-height: 22px;
   width: 288px;
 }
-.bullet-list li {
+.cookie-list li {
   width: 268px;
   list-style-type: disc;
   list-style-position: outside;
 }
-ul.bullet-list {
+ul.cookie-list {
   padding-left: 20px;
 }
-.link {
+.external-link {
   color: #1a73e8;
   font-family: Spectral;
   font-weight: 400;
@@ -106,41 +105,41 @@ ul.bullet-list {
   font-size: 18px;
   line-height: 22px;
 }
-.external-link-list li {
+.external-links li {
   width: 288px;
   list-style-type: disc;
   list-style-position: outside;
 }
-ul.external-link-list {
+ul.external-links {
   padding-left: 20px;
 }
 @media screen and (min-width: 1200px) {
-  .terms-container {
+  .cookies-container {
     padding: 0 60px;
     width: 1200px;
   }
-  .terms-title {
-    width: 654px;
+  .cookies-title {
+    width: 414px;
     height: 98px;
     font-size: 64px;
     line-height: 96px;
   }
-  .intro-paragraph-wrapper {
+  .intro-section {
     width: 1080px;
   }
-  .list-item-section {
+  .policy-section {
     width: 1080px;
   }
-  .updated-date {
+  .policy-date {
     width: 1080px;
   }
-  .bullet-list {
+  .cookie-list {
     width: 1080px;
   }
-  .bullet-list li {
+  .cookie-list li {
     width: 1080px;
   }
-  .external-link-list li {
+  .external-links li {
     width: 1080px;
   }
 }
