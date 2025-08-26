@@ -5,7 +5,7 @@
 .title-contact {
   font-family: Spectral;
   font-weight: 400;
-  font-style: Regular;
+  font-style: normal;
   font-size: 32px;
   color: #4f380b;
   line-height: 32px;
@@ -16,7 +16,7 @@
 .contact-address {
   font-family: Spectral;
   font-weight: 500;
-  font-style: Medium;
+  font-style: normal;
   font-size: 16px;
   color: #4f380b;
   line-height: 22px;
@@ -27,7 +27,7 @@
 .contact-email {
   font-family: Spectral;
   font-weight: 400;
-  font-style: Regular;
+  font-style: normal;
   font-size: 16px;
   color: #4f380b;
   line-height: 24px;
@@ -49,7 +49,7 @@
 .contact-social-title {
   font-family: Spectral;
   font-weight: 600;
-  font-style: SemiBold;
+  font-style: normal;
   font-size: 20px;
   color: #4f380b;
   line-height: 30px;
