@@ -1,8 +1,8 @@
-.policy-container {
+.terms-container {
   padding: 0 16px;
   width: 288px;
 }
-.go-back {
+.back-link {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -11,22 +11,21 @@
   font-size: 24px;
   color: #285837;
   line-height: 28px;
-
   text-align: center;
   width: 168px;
   height: 30px;
   margin-top: 32px;
   margin-bottom: 24px;
 }
-.go-back a {
+.back-link a {
   display: inline-flex;
   align-items: center;
   gap: 8px;
 }
-.icon {
+.link-icon {
   color: #4f380b;
 }
-.title-police {
+.terms-title {
   font-weight: 600;
   font-style: SemiBold;
   font-size: 40px;
@@ -37,22 +36,22 @@
   width: 288px;
   height: 68px;
 }
-.first-paragraf {
+.intro-paragraph-wrapper {
   width: 288px;
   height: auto;
   margin-bottom: 32px;
 }
-.general-list {
+.terms-list {
   display: flex;
   flex-direction: column;
   gap: 24px;
   margin-bottom: 32px;
 }
-.list-paragraf {
+.list-item-section {
   width: 288px;
   height: auto;
 }
-.paragraf-police {
+.terms-text {
   color: #4f380b;
   font-family: Spectral;
   font-weight: 400;
@@ -60,7 +59,7 @@
   font-size: 18px;
   line-height: 22px;
 }
-.last-updated {
+.updated-date {
   font-family: Spectral;
   font-weight: 600;
   font-style: SemiBold;
@@ -73,7 +72,7 @@
   margin-bottom: 30px;
 }
 
-.title-paragraf {
+.section-heading {
   font-weight: 600;
   font-style: SemiBold;
   font-size: 24px;
@@ -82,7 +81,7 @@
   letter-spacing: 0%;
   padding-bottom: 8px;
 }
-.item-paragraf {
+.bullet-list {
   color: #4f380b;
   font-weight: 400;
   font-style: Regular;
@@ -90,15 +89,15 @@
   line-height: 22px;
   width: 288px;
 }
-.item-paragraf li {
+.bullet-list li {
   width: 268px;
   list-style-type: disc;
   list-style-position: outside;
 }
-ul.item-paragraf {
+ul.bullet-list {
   padding-left: 20px;
 }
-.item-link {
+.link {
   color: #1a73e8;
   font-family: Spectral;
   font-weight: 400;
@@ -106,43 +105,41 @@ ul.item-paragraf {
   font-size: 18px;
   line-height: 22px;
 }
-.item-link li {
+.external-link-list li {
   width: 288px;
   list-style-type: disc;
   list-style-position: outside;
 }
-ul.item-link {
+ul.external-link-list {
   padding-left: 20px;
 }
-
 @media screen and (min-width: 1200px) {
-  .policy-container {
+  .terms-container {
     padding: 0 60px;
     width: 1200px;
   }
-  .title-police {
-    width: 414px;
+  .terms-title {
+    width: 654px;
     height: 98px;
     font-size: 64px;
-
     line-height: 96px;
   }
-  .first-paragraf {
+  .intro-paragraph-wrapper {
     width: 1080px;
   }
-  .list-paragraf {
+  .list-item-section {
     width: 1080px;
   }
-  .last-updated {
+  .updated-date {
     width: 1080px;
   }
-  .item-paragraf {
+  .bullet-list {
     width: 1080px;
   }
-  .item-paragraf li {
+  .bullet-list li {
     width: 1080px;
   }
-  .item-link li {
+  .external-link-list li {
     width: 1080px;
   }
 }
