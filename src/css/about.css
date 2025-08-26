@@ -1,0 +1,97 @@
+.about {
+    padding: 0 0 6px;
+}
+
+.about__container {
+    position: relative;
+}
+
+.about__info-wrapper {
+    padding: 43px 0 36px;
+}
+
+.about__title {
+    margin-bottom: 18px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.about__text {
+    padding: 14px;
+    border-radius: 16px;
+    border: 2px solid #4F380B;
+    background-color: #c59353;
+    color: #2c1b0f;
+    box-shadow: 4px 12px 12px 2px rgba(0, 0, 0, 0.25);
+    background-image: url(../img/sand-bg/sand-background-1x.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* clip-path: polygon(2% 4%, 10% 0%, 20% 3%, 30% 0%, 40% 5%,
+            50% 0%, 60% 4%, 70% 0%, 80% 5%, 90% 0%,
+            98% 6%, 100% 15%, 97% 25%, 100% 35%, 96% 45%,
+            100% 55%, 95% 65%, 100% 75%, 96% 85%, 100% 95%,
+            92% 100%, 80% 97%, 70% 100%, 60% 95%, 50% 100%,
+            40% 96%, 30% 100%, 20% 97%, 10% 100%, 4% 95%,
+            0% 85%, 3% 75%, 0% 65%, 5% 55%, 0% 45%,
+            4% 35%, 0% 25%, 5% 15%, 0% 5%); */
+}
+
+@media screen and (min-resolution: 192dpi) {
+    .about__text {
+        background-image: url(../img/sand-bg/sand-background-2x.webp);
+    }
+}
+
+/* .about__image-wrapper {} */
+
+.image-top-left {
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+
+.image-bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 16px;
+}
+
+@media screen and (min-width: 1280px) {
+    .about {
+        padding: 9px 0 42px;
+    }
+
+    .image-top-left {
+        left: 16px;
+    }
+
+    .image-top-left img {
+        width: 100%;
+        height: auto;
+        max-width: 162px;
+    }
+
+    .about__info-wrapper {
+        padding: 52px 0 18px;
+    }
+
+    .about__title {
+        font-size: 48px;
+        line-height: 1.12;
+        margin-bottom: 24px;
+    }
+
+    .about__text {
+        padding: 46px 53px;
+        box-shadow: 4px 12px 12px 2px rgba(0, 0, 0, 0.25);
+        max-width: 760px;
+        margin: 0 auto;
+    }
+
+    .image-bottom-right img {
+        width: 100%;
+        height: auto;
+        max-width: 207px;
+    }
+}

@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000;
+    z-index: 1500;
     background: #FFF7E7;
     box-shadow: 0 4px 4px 0 rgba(79, 56, 11, 0.25);
     padding: 7px 0;
@@ -30,11 +30,7 @@
     display: none;
 }
 
-.visually-hidden {}
-
-.header_nav-link {}
-
-.current {}
+/* .header_nav-link {} */
 
 .header_menu-btn {
     background: transparent;

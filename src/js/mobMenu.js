@@ -15,6 +15,7 @@ links.forEach(link => {
     const targetId = link.getAttribute('href');
     if (targetId.startsWith('#')) {
       e.preventDefault();
+      document.body.style.overflow = 'visible';
       const section = document.querySelector(targetId);
       section.scrollIntoView({ behavior: 'smooth' });
     }
@@ -33,6 +34,7 @@ function onOpenMenuClick() {
   mobMenu.classList.add('is-open');
   openBtn.classList.add('visually-hidden');
   closeBtn.classList.remove('visually-hidden');
+  document.body.style.overflow = 'hidden';
 }
 
 function onCloseMenuClick() {
@@ -40,4 +42,5 @@ function onCloseMenuClick() {
   mobMenu.classList.remove('is-open');
   closeBtn.classList.add('visually-hidden');
   openBtn.classList.remove('visually-hidden');
+  document.body.style.overflow = 'visible';
 }

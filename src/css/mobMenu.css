@@ -20,17 +20,16 @@
     pointer-events: auto;
 }
 
-.header_mob-munu {}
+/* .header_mob-munu {} */
 
 .mob-menu {
     position: fixed;
     top: 60px;
     left: 0;
     width: 100%;
-    /* min-height: calc(100vh - 60px); */
     transform: translateY(-100%);
     transition: transform 0.4s ease-in-out;
-    z-index: 500;
+    z-index: 1500;
     background: #FFF7E7;
     background-image: url(../img/mobMenu/diamond-bg-mobmenu-1x.webp);
     background-repeat: no-repeat;
@@ -65,5 +64,3 @@
     font-weight: 400;
     line-height: 1.2;
 }
-
-.current {}
