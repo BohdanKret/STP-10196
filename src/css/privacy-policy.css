@@ -3,11 +3,9 @@
   width: 288px;
 }
 .go-back {
-  display: flex; 
+  display: flex;
   align-items: center;
-  
   gap: 8px;
-
   font-weight: 500;
   font-style: Medium;
   font-size: 24px;
