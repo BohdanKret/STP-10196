@@ -9,9 +9,9 @@ accordionHeaders.forEach(header => {
     accordionItem.classList.toggle('active');
    
     if (isActive) {
-      iconUse.setAttribute('href', './public/icons.svg#icon-arrow-up');
+      iconUse.setAttribute('href', '/icons.svg#icon-arrow-up');
     } else {
-      iconUse.setAttribute('href', './public/icons.svg#icon-arrow-down');
+      iconUse.setAttribute('href', '/icons.svg#icon-arrow-down');
     }
   });
 });

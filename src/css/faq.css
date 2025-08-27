@@ -63,7 +63,7 @@
 .accordion-content {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.3s ease-in-out;
+  /* transition: max-height 0.3s ease-in-out; */
   padding-left: 8px;
   padding-right: 8px;
 }
