@@ -1,7 +1,7 @@
 .section-footer {
   background-color: #285837;
-  margin: 0;
   padding: 24px 0;
+  color: #f4f3f3;
 }
 
 .footer-container {
@@ -11,37 +11,32 @@
 .footer-links {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  list-style: none;
-  margin: 0 auto 16px;
-  width: 288px;
-  height: 220px;
+  align-items: center;
+  margin-bottom: 16px;
   gap: 14px;
 }
 
 .footer-link-item {
-  position: relative;
-  padding: 0 6px;
+  /* position: relative; */
   font-weight: 500;
-  font-style: Medium;
   font-size: 32px;
-  color: #f4f3f3;
-  line-height: 36px;
-  letter-spacing: 0%;
+  line-height: 1.12;
   text-align: center;
 }
 
+.footer-dots {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--color-bg-accent);
+}
+
 .paragraf-footer {
-  font-weight: 400;
-  font-style: Regular;
+  color: inherit;
   font-size: 16px;
-  color: #f4f3f3;
-  line-height: 24px;
-  letter-spacing: 0%;
+  line-height: 1.5;
   text-align: center;
-  width: 288px;
-  min-height: 48px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -51,17 +46,5 @@
 
   .footer-links {
     flex-direction: row;
-
-    margin: 0 auto;
-    width: 948px;
-    height: 68px;
-    gap: 14px;
-    margin-bottom: 16px;
-  }
-
-  .paragraf-footer {
-    margin: 0 auto;
-    width: 303px;
-    height: 24px;
   }
 }

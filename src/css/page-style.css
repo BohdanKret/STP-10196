@@ -1,0 +1,99 @@
+.page-button-back {
+  font-weight: 500;
+  font-size: 24px;
+  color: #285837;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+
+.page-button-back a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.page-icon {
+  color: #4f380b;
+}
+
+.page-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+
+.page-update-info {
+  font-weight: 600;
+  font-size: 20px;
+  color: #616161;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.page-update-info span {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.page-subtitle {
+  margin-bottom: 32px;
+}
+
+/* .paragraf-info-udertitle {} */
+
+/* .page-list {} */
+
+.page-list-item {
+  margin-bottom: 24px;
+}
+
+.page-list-item:last-child {
+  margin-bottom: 0;
+}
+
+.paragraf-title {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+/* .paragraf-info {} */
+
+/* .paragraf-info-subtitle {} */
+
+.paragraf-info-list {
+  color: #4f380b;
+  padding-left: 20px;
+}
+
+.paragraf-info-item {
+  list-style-type: disc;
+  list-style-position: outside;
+}
+
+/* .paragraf-info-text {} */
+
+.link-specefic {
+  color: #1a73e8;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+@media screen and (min-width: 1200px) {
+  .page-button-back {
+    margin-bottom: 32px;
+  }
+
+  .page-title {
+    font-size: 64px;
+    line-height: 1.5;
+  }
+
+  .paragraf-title {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+}

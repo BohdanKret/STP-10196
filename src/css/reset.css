@@ -18,6 +18,8 @@ li {
   margin: 0;
   padding: 0;
   border: 0;
+  font-family: inherit;
+  font-style: inherit;
 }
 
 p,
@@ -27,6 +29,8 @@ li {
   margin: 0;
   padding: 0;
   list-style: none;
+  font-family: inherit;
+  font-style: inherit;
 }
 
 p:last-child {
@@ -39,6 +43,10 @@ p:last-child {
 
 a {
   color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
   text-decoration: none;
 }
 
