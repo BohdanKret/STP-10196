@@ -52,6 +52,40 @@
         gap: 34px;
     }
 
+    .header_nav-link {
+        position: relative;
+        color: #4F380B;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 1.2;
+        text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .header_nav-link:hover {
+        color: rgba(79, 56, 11, 0.80);
+    }
+
+    .header_nav-link::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -4px;
+        width: 0;
+        height: 2px;
+        background: rgba(79, 56, 11, 0.80);
+        transition: width 0.3s ease;
+    }
+
+    .header_nav-link:hover::after {
+        width: 100%;
+    }
+
+    .header_nav-link:focus,
+    .header_nav-link:active {
+        color: #312307;
+    }
+
     .header_menu-btn {
         display: none;
     }
