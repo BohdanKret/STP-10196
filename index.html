@@ -43,10 +43,10 @@
     />
 
     <title>STP-10196</title>
-    <script type="module" crossorigin src="/evpl_vite_template/index.js"></script>
-    <link rel="modulepreload" crossorigin href="/evpl_vite_template/assets/vendor-Djm3NbmJ.js">
-    <link rel="stylesheet" crossorigin href="/evpl_vite_template/assets/vendor-BH4JZYC6.css">
-    <link rel="stylesheet" crossorigin href="/evpl_vite_template/assets/styles-DXz8Zh4D.css">
+    <script type="module" crossorigin src="/STP-10196/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/STP-10196/assets/vendor-Djm3NbmJ.js">
+    <link rel="stylesheet" crossorigin href="/STP-10196/assets/vendor-BH4JZYC6.css">
+    <link rel="stylesheet" crossorigin href="/STP-10196/assets/styles-DgAMUn3f.css">
   </head>
   <body>
     <header class="header">
@@ -79,7 +79,7 @@
 
     <button type="button" class="header_menu-btn" id="openMenuBtn">
       <svg width="24" height="20" class="header_open-menu-icon icons">
-        <use href="/evpl_vite_template/icons.svg#icon-grid"></use>
+        <use href="/STP-10196/icons.svg#icon-grid"></use>
       </svg>
     </button>
     <button
@@ -88,7 +88,7 @@
       id="closeMenuBtn"
     >
       <svg width="24" height="24" class="header_close-menu-btn icons">
-        <use href="/evpl_vite_template/icons.svg#icon-x"></use>
+        <use href="/STP-10196/icons.svg#icon-x"></use>
       </svg>
     </button>
   </div>
@@ -102,14 +102,14 @@
       <div class="hero_img">
         <picture>
           <source
-            srcset="/evpl_vite_template/assets/hero-desc-1x-DUleUF1W.webp 1x, /evpl_vite_template/assets/hero-desc-2x-Fmm7yq7f.webp 2x"
+            srcset="/STP-10196/assets/hero-desc-1x-DUleUF1W.webp 1x, /STP-10196/assets/hero-desc-2x-Fmm7yq7f.webp 2x"
             media="(min-width:1200px)"
           />
           <source
-            srcset="/evpl_vite_template/assets/hero-mob-1x-QR36JcQx.webp 1x, /evpl_vite_template/assets/hero-mob-2x-D3OgfKx7.webp 2x"
+            srcset="/STP-10196/assets/hero-mob-1x-QR36JcQx.webp 1x, /STP-10196/assets/hero-mob-2x-D3OgfKx7.webp 2x"
             media="(max-width:1198px)"
           />
-          <img src="/evpl_vite_template/assets/hero-desc-2x-Fmm7yq7f.webp" alt="hero-img" width="189" />
+          <img src="/STP-10196/assets/hero-desc-2x-Fmm7yq7f.webp" alt="hero-img" width="189" />
         </picture>
       </div>
       <div class="hero_text">
@@ -117,11 +117,13 @@
         <p class="hero_subtitle">
           Slide, Match, Relax — Feel the Warmth of Puzzle Calm
         </p>
-        <a
-          href="https://play.google.com/store/apps/details?id=com.nss.chikiguys&hl=en&gl=us"
-          class="hero_cta-button"
-          >Play Cozy Now</a
-        >
+        <div class="hero_cta">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.nss.chikiguys&hl=en&gl=us"
+            class="hero_cta-button"
+            >Play Cozy Now</a
+          >
+        </div>
       </div>
     </div>
   </div>
@@ -132,7 +134,7 @@
     <div class="about__img-wrapper image-top-left">
       <picture>
         <source
-          srcset="data:image/webp;base64,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 1x, /evpl_vite_template/assets/diamond-pair-desc-2x-2j7Y8z3k.webp 2x"
+          srcset="data:image/webp;base64,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 1x, /STP-10196/assets/diamond-pair-desc-2x-2j7Y8z3k.webp 2x"
           media="(min-width:1200px)"
         />
         <source
@@ -161,15 +163,15 @@
     <div class="about__image-wrapper image-bottom-right">
       <picture>
         <source
-          srcset="/evpl_vite_template/assets/dimond-box-desc-2x-Dw-YZ8LS.webp 1x, /evpl_vite_template/assets/dimond-box-desc-2x-Dw-YZ8LS.webp 2x"
+          srcset="/STP-10196/assets/dimond-box-desc-2x-Dw-YZ8LS.webp 1x, /STP-10196/assets/dimond-box-desc-2x-Dw-YZ8LS.webp 2x"
           media="(min-width:1200px)"
         />
         <source
-          srcset="/evpl_vite_template/assets/dimond-box-desc-2x-Dw-YZ8LS.webp 1x, /evpl_vite_template/assets/dimond-box-desc-2x-Dw-YZ8LS.webp 2x"
+          srcset="/STP-10196/assets/dimond-box-desc-2x-Dw-YZ8LS.webp 1x, /STP-10196/assets/dimond-box-desc-2x-Dw-YZ8LS.webp 2x"
           media="(max-width:1198px)"
         />
         <img
-          src="/evpl_vite_template/assets/dimond-box-desc-2x-Dw-YZ8LS.webp"
+          src="/STP-10196/assets/dimond-box-desc-2x-Dw-YZ8LS.webp"
           alt="diamond-box"
           width="72"
         />
@@ -211,41 +213,41 @@
 </section>
 
       <section class="game-modes" id="game-modes">
-  <div class="container">
+  <div class="container game-modes-container">
+    <h2 class="modes-title">Game Modes</h2>
+
     <div class="modes-img">
       <picture>
         <source
-          srcset="/evpl_vite_template/assets/game-modes-desc-1x-m9jepi7j.webp 1x, /evpl_vite_template/assets/game-modes-desc-2x-CKlmFi2S.webp 2x"
+          srcset="/STP-10196/assets/game-modes-desc-1x-m9jepi7j.webp 1x, /STP-10196/assets/game-modes-desc-2x-CKlmFi2S.webp 2x"
           media="(min-width:1200px)"
         />
         <source
-          srcset="/evpl_vite_template/assets/game-modes-mob-1x-rnXYk1sy.webp 1x, /evpl_vite_template/assets/game-modes-mob-2x-6Jqq4vSi.webp 2x"
+          srcset="/STP-10196/assets/game-modes-mob-1x-rnXYk1sy.webp 1x, /STP-10196/assets/game-modes-mob-2x-6Jqq4vSi.webp 2x"
           media="(max-width:1198px)"
         />
         <img
-          src="/evpl_vite_template/assets/game-modes-desc-2x-CKlmFi2S.webp"
+          src="/STP-10196/assets/game-modes-desc-2x-CKlmFi2S.webp"
           alt="game-modes-img"
           width="160"
         />
       </picture>
     </div>
-    <h2 class="modes-title">Game Modes</h2>
     <ul class="modes-list">
       <li class="modes-item">
         <h3 class="modes-item-title">Classic Cozy:</h3>
         <p class="modes-item-text">Match and clear without a timer</p>
       </li>
       <li class="modes-item">
-        <h3 class="modes-item-title">Timed Tea:</h3>
+        <h3 class="modes-item-title specific-modes-item-title">Timed Tea:</h3>
         <p class="modes-item-text">
-          Infinite play with no distractions or goals
+          Solve relaxing layouts before your tea cools down
         </p>
       </li>
       <li class="modes-item">
         <h3 class="modes-item-title">Zen Tiles:</h3>
         <p class="modes-item-text">
-          New puzzles every day to keep your mind sharp and engaged. Compete
-          with friends for the best scores!
+          Infinite play with no distractions or goals
         </p>
       </li>
       <li class="modes-item">
@@ -270,16 +272,16 @@
         <picture>
           <source
             media="(min-width: 1200px)"
-            srcset="/evpl_vite_template/assets/unnamed1-1x-BA8jnQ-n.png 1x, /evpl_vite_template/assets/unnamed1-2x-DclTDahn.png 2x"
+            srcset="/STP-10196/assets/unnamed1-1x-BA8jnQ-n.png 1x, /STP-10196/assets/unnamed1-2x-DclTDahn.png 2x"
           />
 
           <source
             media="(max-width: 1199px)"
-            srcset="/evpl_vite_template/assets/unnamed1-1x-BvIyBvvJ.png 1x, /evpl_vite_template/assets/unnamed1-2x-DvMqOsKb.png 2x"
+            srcset="/STP-10196/assets/unnamed1-1x-BvIyBvvJ.png 1x, /STP-10196/assets/unnamed1-2x-DvMqOsKb.png 2x"
           />
 
           <img
-            src="/evpl_vite_template/assets/unnamed1-1x-BvIyBvvJ.png"
+            src="/STP-10196/assets/unnamed1-1x-BvIyBvvJ.png"
             alt="Follow the Story! - Two characters, a man and a woman, in a dramatic scene. 
                  Renovate - A before-and-after scene showing a room renovation, with a man and a child. 
                  Make Jewelry - An illustration of various gems and a jeweled tiara."
@@ -290,16 +292,16 @@
         <picture>
           <source
             media="(min-width: 1200px)"
-            srcset="/evpl_vite_template/assets/unnamed2-1x-CvF4_27n.png 1x, /evpl_vite_template/assets/unnamed2-2x-_os6KVCA.png 2x"
+            srcset="/STP-10196/assets/unnamed2-1x-CvF4_27n.png 1x, /STP-10196/assets/unnamed2-2x-_os6KVCA.png 2x"
           />
 
           <source
             media="(max-width: 1199px)"
-            srcset="/evpl_vite_template/assets/unnamed2-1x-CfUFH8Q6.png 1x, /evpl_vite_template/assets/unnamed2-2x-x3l9q04G.png 2x"
+            srcset="/STP-10196/assets/unnamed2-1x-CfUFH8Q6.png 1x, /STP-10196/assets/unnamed2-2x-x3l9q04G.png 2x"
           />
 
           <img
-            src="/evpl_vite_template/assets/unnamed2-1x-CfUFH8Q6.png"
+            src="/STP-10196/assets/unnamed2-1x-CfUFH8Q6.png"
             alt="Make Jewelry -  An illustration of various gems and a jeweled tiara."
           />
         </picture>
@@ -308,16 +310,16 @@
         <picture>
           <source
             media="(min-width: 1200px)"
-            srcset="/evpl_vite_template/assets/unnamed3-1x-ScYmZ1Kf.png 1x, /evpl_vite_template/assets/unnamed3-2x-D2WlSBa0.png 2x"
+            srcset="/STP-10196/assets/unnamed3-1x-ScYmZ1Kf.png 1x, /STP-10196/assets/unnamed3-2x-D2WlSBa0.png 2x"
           />
 
           <source
             media="(max-width: 1199px)"
-            srcset="/evpl_vite_template/assets/unnamed3-1x-Blxlj_sM.png 1x, /evpl_vite_template/assets/unnamed3-2x-ChnolPkp.png 2x"
+            srcset="/STP-10196/assets/unnamed3-1x-Blxlj_sM.png 1x, /STP-10196/assets/unnamed3-2x-ChnolPkp.png 2x"
           />
 
           <img
-            src="/evpl_vite_template/assets/unnamed3-1x-Blxlj_sM.png"
+            src="/STP-10196/assets/unnamed3-1x-Blxlj_sM.png"
             alt="A stylized
           illustration shows an angry-looking woman with long red hair, wearing
           a brown jacket, standing with her arms crossed. She is positioned in
@@ -333,16 +335,16 @@
         <picture>
           <source
             media="(min-width: 1200px)"
-            srcset="/evpl_vite_template/assets/unnamed4-1x-DnOd6bdz.png 1x, /evpl_vite_template/assets/unnamed4-2x-N_yE9wcw.png 2x"
+            srcset="/STP-10196/assets/unnamed4-1x-DnOd6bdz.png 1x, /STP-10196/assets/unnamed4-2x-N_yE9wcw.png 2x"
           />
 
           <source
             media="(max-width: 1199px)"
-            srcset="/evpl_vite_template/assets/unnamed4-1x-BbEmfNyC.png 1x, /evpl_vite_template/assets/unnamed4-2x-bubIGrnZ.png 2x"
+            srcset="/STP-10196/assets/unnamed4-1x-BbEmfNyC.png 1x, /STP-10196/assets/unnamed4-2x-bubIGrnZ.png 2x"
           />
 
           <img
-            src="/evpl_vite_template/assets/unnamed4-1x-BbEmfNyC.png"
+            src="/STP-10196/assets/unnamed4-1x-BbEmfNyC.png"
             alt="A stylized illustration of a red-haired woman
              with a red top, smiling and pointing toward the center
               of the image. A glowing treasure chest is in the middle, 
@@ -359,16 +361,16 @@
         <picture>
           <source
             media="(min-width: 1200px)"
-            srcset="/evpl_vite_template/assets/unnamed5-1x-Dl6wRbVY.png 1x, /evpl_vite_template/assets/unnamed5-2x-CcyRINnK.png 2x"
+            srcset="/STP-10196/assets/unnamed5-1x-Dl6wRbVY.png 1x, /STP-10196/assets/unnamed5-2x-CcyRINnK.png 2x"
           />
 
           <source
             media="(max-width: 1199px)"
-            srcset="/evpl_vite_template/assets/unnamed5-1x-Cf4gonZp.png 1x, /evpl_vite_template/assets/unnamed5-2x-BtnANlsy.png 2x"
+            srcset="/STP-10196/assets/unnamed5-1x-Cf4gonZp.png 1x, /STP-10196/assets/unnamed5-2x-BtnANlsy.png 2x"
           />
 
           <img
-            src="/evpl_vite_template/assets/unnamed5-1x-Cf4gonZp.png"
+            src="/STP-10196/assets/unnamed5-1x-Cf4gonZp.png"
             alt="A stylized illustration showing a glass jar with a cork stopper, 
             filled with large, sparkling, multicolored gems. Several more gems are
              shown floating above the jar. In the background, there is a grid of tiles
@@ -382,16 +384,16 @@
         <picture>
           <source
             media="(min-width: 1200px)"
-            srcset="/evpl_vite_template/assets/unnamed6-1x-DjDLgWwS.png 1x, /evpl_vite_template/assets/unnamed6-2x-BgxpljbY.png 2x"
+            srcset="/STP-10196/assets/unnamed6-1x-DjDLgWwS.png 1x, /STP-10196/assets/unnamed6-2x-BgxpljbY.png 2x"
           />
 
           <source
             media="(max-width: 1199px)"
-            srcset="/evpl_vite_template/assets/unnamed6-1x-Ny7uk0oJ.png 1x, /evpl_vite_template/assets/unnamed6-2x-T2IDKVyQ.png 2x"
+            srcset="/STP-10196/assets/unnamed6-1x-Ny7uk0oJ.png 1x, /STP-10196/assets/unnamed6-2x-T2IDKVyQ.png 2x"
           />
 
           <img
-            src="/evpl_vite_template/assets/unnamed6-1x-Ny7uk0oJ.png"
+            src="/STP-10196/assets/unnamed6-1x-Ny7uk0oJ.png"
             alt=" A stylized illustration showing a You Win! screen from a mobile game. 
             In the center, there is a large VS logo, with two characters on either side:
             one male character with glasses named Leo and another female character with a crown named Nana.
@@ -407,12 +409,12 @@
     <!-- кнопки навігації -->
     <div class="swiper-button-prev">
       <svg width="21" height="37">
-        <use href="/evpl_vite_template/assets/icons-RIh5nLbW.svg#icon-arrow-left"></use>
+        <use href="./icons.svg#icon-arrow-left"></use>
       </svg>
     </div>
     <div class="swiper-button-next">
       <svg width="21" height="37">
-        <use href="/evpl_vite_template/assets/icons-RIh5nLbW.svg#icon-arrow-right"></use>
+        <use href="./icons.svg#icon-arrow-right"></use>
       </svg>
     </div>
   </div>
@@ -425,7 +427,7 @@
       <button class="accordion-header">
         <h3 class="accordion-title">Is Tile Coze free?</h3>
         <svg class="accordion-icon" width="26" height="26">
-          <use href="/evpl_vite_template/assets/icons-RIh5nLbW.svg#icon-arrow-up"></use>
+          <use href="./icons.svg#icon-arrow-up"></use>
         </svg>
       </button>
       <div class="accordion-content">
@@ -438,7 +440,7 @@
       <button class="accordion-header">
         <h3 class="accordion-title">Can I play offline?</h3>
         <svg class="accordion-icon" width="26" height="26">
-          <use href="/evpl_vite_template/assets/icons-RIh5nLbW.svg#icon-arrow-up"></use>
+          <use href="./icons.svg#icon-arrow-up"></use>
         </svg>
       </button>
       <div class="accordion-content">
@@ -449,7 +451,7 @@
       <button class="accordion-header">
         <h3 class="accordion-title">Are there daily puzzles?</h3>
         <svg class="accordion-icon" width="26" height="26">
-          <use href="/evpl_vite_template/assets/icons-RIh5nLbW.svg#icon-arrow-up"></use>
+          <use href="./icons.svg#icon-arrow-up"></use>
         </svg>
       </button>
       <div class="accordion-content">
@@ -460,7 +462,7 @@
       <button class="accordion-header">
         <h3 class="accordion-title">Is it too easy for puzzle fans?</h3>
         <svg class="accordion-icon" width="26" height="26">
-          <use href="/evpl_vite_template/assets/icons-RIh5nLbW.svg#icon-arrow-up"></use>
+          <use href="./icons.svg#icon-arrow-up"></use>
         </svg>
       </button>
       <div class="accordion-content">
@@ -474,7 +476,7 @@
       <button class="accordion-header">
         <h3 class="accordion-title">Can kids play?</h3>
         <svg class="accordion-icon" width="26" height="26">
-          <use href="/evpl_vite_template/assets/icons-RIh5nLbW.svg#icon-arrow-up"></use>
+          <use href="./icons.svg#icon-arrow-up"></use>
         </svg>
       </button>
       <div class="accordion-content">
@@ -495,9 +497,9 @@
 
     <div class="img-download">
       <img
-        src="/evpl_vite_template/assets/down-pick1x-El8NMMvm.png"
+        src="/STP-10196/assets/down-pick1x-El8NMMvm.png"
         alt="Illustration of a bearded man hugging a smiling boy and girl"
-        srcset="/evpl_vite_template/assets/down-pick1x-El8NMMvm.png 1x, /evpl_vite_template/assets/down-pick2x-CbBJ32tx.png 2x"
+        srcset="/STP-10196/assets/down-pick1x-El8NMMvm.png 1x, /STP-10196/assets/down-pick2x-CbBJ32tx.png 2x"
       />
     </div>
 
@@ -521,71 +523,76 @@
 
       <section class="container container-contact">
   <h2 id="contact" class="title-contact">Contacts</h2>
- 
+
   <address>
     <p class="contact-address">
-  Address: 
-  <a 
-    href="https://www.google.com/maps?q=Yoyi+Games,+88+Serenity+Way,+Copenhagen,+Denmark" 
-    target="_blank" 
-    rel="noopener noreferrer"
-  >
-    Yoyi Games, 88 Serenity Way, Copenhagen, Denmark
-  </a>
-</p>
-    <p class="contact-email">Email: <a href="mailto:info@designyoyi.online" >info@designyoyi.online</a></p>
+      Address:
+      <a
+        href="https://www.google.com/maps?q=Yoyi+Games,+88+Serenity+Way,+Copenhagen,+Denmark"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Yoyi Games, 88 Serenity Way, Copenhagen, Denmark
+      </a>
+    </p>
+    <p class="contact-email">
+      Email: <a href="mailto:info@designyoyi.online">info@designyoyi.online</a>
+    </p>
     <div class="social-group">
-        <p class="contact-social-title">Follow us on social:</p>
-    <div class="contact-icon">
-  <a href="https://instagram.com/tilecozygamespace"  target="_blank"class="social-link">
-    <img
-      src="/evpl_vite_template/assets/icons_instagram-DJTYvTtJ.png"
-      alt="Icon instagram"
-      class="insta-icon"
-    />
-  </a>
+      <p class="contact-social-title">Follow us on social:</p>
+      <div class="contact-icon">
+        <a
+          href="https://instagram.com/tilecozygamespace"
+          target="_blank"
+          class="social-link"
+        >
+          <img
+            src="/STP-10196/assets/icons_instagram-DJTYvTtJ.png"
+            alt="Icon instagram"
+            class="insta-icon"
+          />
+        </a>
 
-  <a href="https://facebook.com/tilecozygamespace" target="_blank" class="social-link">
-    <img
-      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIPSURBVHgB7Zo7SMNAGMf/pj7qCypWUAcfUBUHQdFJsHYS3URxUQQ7dVLRzV1x1FEn3bqKDh0tFvduonaoSytYsdI2tqVNzAVaQh9prTHXk/wghLsL4X7c3XdfyAGM06AsOJYvLOkmfogzcRbUKY1Js9975YzmynkB+/rZrgicggXEhj2f2yX3VRZwbJ1YsunWDzCEiW/pIiPBkUImaZ4EY5CpTu4cGCW3TpkVyMG8QCMoYhvslq8+a2e+Ls6nEOPT0j0N/0MY8URK9R1UBNYWJ7BoH8OI1Hk1dg6vZQk1dBXoaGvB0f4Cpsb7oRW6roED17ymnSfoJrBkH8XczDC0RjcB58oM/gJd1oBtwIrenk7VZ8JvMbxKlxISiSqhi0BfT4dq+87hjRRtQqgFXaaQTSVceu4ea+48gfpOHHh5x2+gLlBpp62EkczRxshGlZBos705W1SvzDYLWVuSErv5sZJtu1J4rYSmAiRZ+2muYxu0lqyvZhMj1O0Ueg5GqnqubgXiX4yPQID1EShM7MpRtwLhSHUCmkYhkpTZN86L6p0r03Culv4eOD67hcf3hFoxdmLaGAK0MQRoYwjQxhCgjSFAm/8hIGRNUTCKLNDcngiCMciRA3KXBbyXe1FB+n0PRiB9zZ2XyH/Q3Ltdp47li8uMOan5X/usWL4tFPmEKIioBoETos18W9CnOOzBPN95zpUu5tJcawAAAABJRU5ErkJggg=="
-      alt="Icon Facebook"
-      class="facebook-icon"
-    />
-  </a>
-</div></div>
-    
+        <a
+          href="https://facebook.com/tilecozygamespace"
+          target="_blank"
+          class="social-link"
+        >
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIPSURBVHgB7Zo7SMNAGMf/pj7qCypWUAcfUBUHQdFJsHYS3URxUQQ7dVLRzV1x1FEn3bqKDh0tFvduonaoSytYsdI2tqVNzAVaQh9prTHXk/wghLsL4X7c3XdfyAGM06AsOJYvLOkmfogzcRbUKY1Js9975YzmynkB+/rZrgicggXEhj2f2yX3VRZwbJ1YsunWDzCEiW/pIiPBkUImaZ4EY5CpTu4cGCW3TpkVyMG8QCMoYhvslq8+a2e+Ls6nEOPT0j0N/0MY8URK9R1UBNYWJ7BoH8OI1Hk1dg6vZQk1dBXoaGvB0f4Cpsb7oRW6roED17ymnSfoJrBkH8XczDC0RjcB58oM/gJd1oBtwIrenk7VZ8JvMbxKlxISiSqhi0BfT4dq+87hjRRtQqgFXaaQTSVceu4ea+48gfpOHHh5x2+gLlBpp62EkczRxshGlZBos705W1SvzDYLWVuSErv5sZJtu1J4rYSmAiRZ+2muYxu0lqyvZhMj1O0Ueg5GqnqubgXiX4yPQID1EShM7MpRtwLhSHUCmkYhkpTZN86L6p0r03Culv4eOD67hcf3hFoxdmLaGAK0MQRoYwjQxhCgjSFAm/8hIGRNUTCKLNDcngiCMciRA3KXBbyXe1FB+n0PRiB9zZ2XyH/Q3Ltdp47li8uMOan5X/usWL4tFPmEKIioBoETos18W9CnOOzBPN95zpUu5tJcawAAAABJRU5ErkJggg=="
+            alt="Icon Facebook"
+            class="facebook-icon"
+          />
+        </a>
+      </div>
+    </div>
   </address>
-</section>
 </section>
 
     </main>
     
-    <section class="section-footer">
+    <footer class="section-footer">
   <div class="container">
-    <div class="footer-container">
-      <ul class="footer-links">
-        <li class="footer-link-item">
-          <a href="/privacy-policy.html">Privacy Policy</a>
-        </li>
-        <li class="footer-link-divider">
-          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBlZHBDYJAEEVnBvFkNtABdqAVKJ3QAa1oB3YiVCAdSAcY2ItZYNzB5WCiCC/Zy+T9PfyP4KiqKlivVikDHOH9hKJnPiulLqOHTo58378CcwTfQCyNMXEYhuUQ0Frff8qfob1X13ViUwn8JyCAJxFiCjNBogPqpmFYAMFCJJAt8Avivs/n2rIJymC+591sbdGkzVxulNqSHeNhui6Ww5Q8OOCWHpFNXM07d8pshXnbtif5WA4vfDhQR8NUUsEAAAAASUVORK5CYII=" alt="Icon Ellipse" />
-        </li>
-        <li class="footer-link-item">
-          <a href="/terms-and-conditions.html">Terms and Conditions</a>
-        </li>
-        <li class="footer-link-divider">
-          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBlZHBDYJAEEVnBvFkNtABdqAVKJ3QAa1oB3YiVCAdSAcY2ItZYNzB5WCiCC/Zy+T9PfyP4KiqKlivVikDHOH9hKJnPiulLqOHTo58378CcwTfQCyNMXEYhuUQ0Frff8qfob1X13ViUwn8JyCAJxFiCjNBogPqpmFYAMFCJJAt8Avivs/n2rIJymC+591sbdGkzVxulNqSHeNhui6Ww5Q8OOCWHpFNXM07d8pshXnbtif5WA4vfDhQR8NUUsEAAAAASUVORK5CYII=" alt="Icon Ellipse" />
-        </li>
-        <li class="footer-link-item">
-          <a href="/cookies-policy.html">Cookies Policy</a>
-        </li>
-      </ul>
-      <p class="paragraf-footer">
-        All rights reserved designyoyi.online | 2025
-      </p>
-    </div>
+    <ul class="footer-links">
+      <li class="footer-link-item">
+        <a href="/page-privacy-policy.html">Privacy Policy</a>
+      </li>
+      <li class="footer-link-divider">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBlZHBDYJAEEVnBvFkNtABdqAVKJ3QAa1oB3YiVCAdSAcY2ItZYNzB5WCiCC/Zy+T9PfyP4KiqKlivVikDHOH9hKJnPiulLqOHTo58378CcwTfQCyNMXEYhuUQ0Frff8qfob1X13ViUwn8JyCAJxFiCjNBogPqpmFYAMFCJJAt8Avivs/n2rIJymC+591sbdGkzVxulNqSHeNhui6Ww5Q8OOCWHpFNXM07d8pshXnbtif5WA4vfDhQR8NUUsEAAAAASUVORK5CYII=" alt="Icon Ellipse" />
+      </li>
+      <li class="footer-link-item">
+        <a href="/page-terms-and-conditions.html">Terms and Conditions</a>
+      </li>
+      <li class="footer-link-divider">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBlZHBDYJAEEVnBvFkNtABdqAVKJ3QAa1oB3YiVCAdSAcY2ItZYNzB5WCiCC/Zy+T9PfyP4KiqKlivVikDHOH9hKJnPiulLqOHTo58378CcwTfQCyNMXEYhuUQ0Frff8qfob1X13ViUwn8JyCAJxFiCjNBogPqpmFYAMFCJJAt8Avivs/n2rIJymC+591sbdGkzVxulNqSHeNhui6Ww5Q8OOCWHpFNXM07d8pshXnbtif5WA4vfDhQR8NUUsEAAAAASUVORK5CYII=" alt="Icon Ellipse" />
+      </li>
+      <li class="footer-link-item">
+        <a href="/page-cookies-policy.html">Cookies Policy</a>
+      </li>
+    </ul>
+    <p class="paragraf-footer">All rights reserved designyoyi.online | 2025</p>
   </div>
-</section>
+</footer>
 
     <div class="backdrop" id="backdrop">
     <div class="header_mob-munu mob-menu" id="mobMenu">
