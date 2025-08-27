@@ -1,17 +1,19 @@
-// document.addEventListener('DOMContentLoaded', function () {
-//   const observer = new IntersectionObserver(
-//     entries => {
-//       entries.forEach(entry => {
-//         if (entry.isIntersecting) {
-//           entry.target.classList.add('visible');
-//           observer.unobserve(entry.target); // показати тільки один раз
-//         }
-//       });
-//     },
-//     { threshold: 0.2 }
-//   );
+document.addEventListener('DOMContentLoaded', () => {
+  const items = document.querySelectorAll('.features-item');
+//   console.log(items); // перевірка
 
-//   document.querySelectorAll('.features-title, .features-item').forEach(el => {
-//     observer.observe(el);
-//   });
-// });
+  const observer = new IntersectionObserver(
+    (entries, obs) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate-in');
+        } else {
+          entry.target.classList.remove('animate-in');
+        }
+      });
+    },
+    { threshold: 0.1 }
+  );
+
+  items.forEach(item => observer.observe(item));
+});

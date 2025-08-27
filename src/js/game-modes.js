@@ -1,17 +1,18 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const section = document.querySelector('.game-modes');
+  const items = document.querySelectorAll('.modes-item');
 
   const observer = new IntersectionObserver(
-    (entries, observer) => {
+    entries => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          entry.target.classList.add('show');
-          observer.unobserve(entry.target);
+          entry.target.classList.add('visible');
+        } else {
+          entry.target.classList.remove('visible');
         }
       });
     },
-    { threshold: 0.3 } // секція повинна бути видно хоча б на 30%
+    { threshold: 0.2 }
   );
 
-  observer.observe(section);
+  items.forEach(item => observer.observe(item));
 });
