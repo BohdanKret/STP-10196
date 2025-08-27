@@ -68,7 +68,7 @@
 }
 
 .google-play-button:hover {
-  background-color: #2c2c2c;
+  background-color: #285837cc;
 }
 
 .google-play-button:active {
@@ -83,7 +83,7 @@
     align-items: center;
     justify-content: space-between;
     height: 667px;
-   }
+  }
 
   .cont-title-download {
     flex-shrink: 0;
