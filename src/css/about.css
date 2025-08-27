@@ -57,6 +57,18 @@
     right: 16px;
 }
 
+.about__bg-img-wrapper {
+    position: absolute;
+    bottom: -210px;
+    left: 0;
+    z-index: -1;
+}
+
+.about__bg-img-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
 @media screen and (min-width: 1280px) {
     .about {
         padding: 9px 0 42px;
@@ -93,5 +105,16 @@
         width: 100%;
         height: auto;
         max-width: 207px;
+    }
+
+    .about__bg-img-wrapper {
+        width: 552px;
+        top: 22px;
+        left: -54px;
+    }
+
+    .about__bg-img-wrapper img {
+        width: 100%;
+        height: auto;
     }
 }

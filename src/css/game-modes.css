@@ -1,5 +1,9 @@
 /* .game-modes {} */
 
+.game-modes-container {
+    position: relative;
+}
+
 .modes-title {
     text-align: center;
     margin-bottom: 18px;
@@ -38,11 +42,22 @@
 
 /* .modes-item-text {} */
 
+.modes-bg-img-wrapper {
+    position: absolute;
+    bottom: -214px;
+    right: 0;
+    z-index: -1;
+}
+
+.modes-bg-img-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
 @media screen and (min-width: 1200px) {
     .game-modes-container {
         display: flex;
         gap: 24px;
-        position: relative;
     }
 
     .modes-title {
@@ -70,6 +85,34 @@
         align-items: center;
         gap: 6px;
         width: 546px;
+        opacity: 0;
+        transform: translateX(-50px) rotate(-2deg);
+        transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+
+    .modes-item.visible {
+        opacity: 1;
+        transform: translateX(0) rotate(0deg);
+    }
+
+    .modes-item:nth-child(1) {
+        transition-delay: 0.1s;
+    }
+
+    .modes-item:nth-child(2) {
+        transition-delay: 0.2s;
+    }
+
+    .modes-item:nth-child(3) {
+        transition-delay: 0.3s;
+    }
+
+    .modes-item:nth-child(4) {
+        transition-delay: 0.4s;
+    }
+
+    .modes-item:nth-child(5) {
+        transition-delay: 0.5s;
     }
 
     .modes-item:nth-child(2),
@@ -90,5 +133,16 @@
 
     .specific-modes-item-title {
         min-width: 124px;
+    }
+
+    .modes-bg-img-wrapper {
+        width: 552px;
+        bottom: 264px;
+        right: 0;
+    }
+
+    .modes-bg-img-wrapper img {
+        width: 100%;
+        height: auto;
     }
 }
