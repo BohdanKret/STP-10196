@@ -1,3 +1,5 @@
+import iconsSprite from '../public/icons.svg';
+
 const accordionHeaders = document.querySelectorAll('.accordion-header');
 
 accordionHeaders.forEach(header => {
@@ -9,9 +11,9 @@ accordionHeaders.forEach(header => {
     accordionItem.classList.toggle('active');
    
     if (isActive) {
-      iconUse.setAttribute('href', '/icons.svg#icon-arrow-up');
+      iconUse.setAttribute('href', `${iconsSprite}#icon-arrow-up`);
     } else {
-      iconUse.setAttribute('href', '/icons.svg#icon-arrow-down');
+      iconUse.setAttribute('href', `${iconsSprite}#icon-arrow-down`);
     }
   });
 });
