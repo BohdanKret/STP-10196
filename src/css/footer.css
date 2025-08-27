@@ -5,7 +5,7 @@
 }
 
 .footer-container {
-  padding: 24px 12px;
+  padding: 24px 0px;
 }
 
 .footer-links {
@@ -37,6 +37,10 @@
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
+
+  /* width: 288px; */
+  min-height: 48px;
+  margin: 0 16px;
 }
 
 @media screen and (min-width: 1200px) {
