@@ -2,6 +2,7 @@
   position: relative;
   overflow: hidden;
 }
+
 .accordion-top-title {
   font-family: Spectral;
   font-weight: 400;
@@ -79,6 +80,7 @@
   font-size: 18px;
   line-height: 22px;
 }
+
 .accordion-title {
   font-family: Spectral;
   font-weight: 600;
@@ -102,6 +104,7 @@
   z-index: -1;
   width: 196px;
 }
+
 .fag-modes-bg-img-wrapper-right img {
   width: 100%;
   height: auto;
@@ -114,26 +117,32 @@
     width: 896px;
     margin: 0 auto;
   }
+
   .accordion-top-title {
     font-size: 48px;
     line-height: 54px;
     margin-bottom: 24px;
   }
+
   .accordion-header {
     padding: 32px;
   }
+
   .accordion-title {
     font-size: 32px;
     line-height: 24px;
   }
+
   .accordion-content {
     padding-left: 32px;
     padding-right: 32px;
   }
+
   .accordion-content p {
     font-size: 24px;
     line-height: 64px;
   }
+
   .accordion-item.active .accordion-header::after {
     width: calc(100% - 64px);
     margin-left: 32px;
@@ -141,9 +150,13 @@
 
   /* ====== */
   .fag-modes-bg-img-wrapper-right {
-    width: 391px;
+    width: 392px;
     /* bottom: -201px; */
-    top: 60px;
-    right: -18px;
+    top: 150px;
+    right: -5px;
+  }
+
+  .fag-modes-bg-img-wrapper-right img {
+    width: 100%;
   }
 }
