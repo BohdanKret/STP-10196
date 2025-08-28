@@ -96,11 +96,11 @@
 /* ==== */
 .fag-modes-bg-img-wrapper-right {
   position: absolute;
-  bottom: -94px;
-  right: 14px;
-  transform: rotate(15deg);
+  /* bottom: -94px; */
+  top: 276px;
+  right: -15px;
   z-index: -1;
-  width: 212px;
+  width: 196px;
 }
 .fag-modes-bg-img-wrapper-right img {
   width: 100%;
@@ -108,9 +108,8 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .section-accordion {
-    margin-bottom: 146px;
-  }
+  /* .section-accordion {} */
+
   .container-accordeon {
     width: 896px;
     margin: 0 auto;
@@ -142,8 +141,9 @@
 
   /* ====== */
   .fag-modes-bg-img-wrapper-right {
-    width: 512px;
-    bottom: -201px;
+    width: 391px;
+    /* bottom: -201px; */
+    top: 60px;
     right: -18px;
   }
 }
