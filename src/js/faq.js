@@ -6,9 +6,9 @@ accordionHeaders.forEach(header => {
   header.addEventListener('click', () => {
     const accordionItem = header.closest('.js-accordion-item');
     const iconUse = header.querySelector('.js-accordion-icon use');
-    const isActive = accordionItem.classList.contains('active');
+    const isActive = accordionItem.classList.contains('js-active');
 
-    accordionItem.classList.toggle('active');
+    accordionItem.classList.toggle('js-active');
     if (isActive) {
       iconUse.setAttribute('href', `${iconsSpritePath}#icon-arrow-down`);
     } else {

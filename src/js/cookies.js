@@ -7,7 +7,7 @@ const context = localStorage.getItem('cookieConsent');
 if (!context) {
   setTimeout(() => {
     cookiesBanner.classList.remove('js-visually-hidden');
-    cookiesBanner.classList.add('show');
+    cookiesBanner.classList.add('js-show');
     document.body.style.overflow = 'hidden';
   }, 1000);
 }
