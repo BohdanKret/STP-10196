@@ -1,3 +1,7 @@
+.section-accordion {
+  position: relative;
+  overflow: hidden;
+}
 .accordion-top-title {
   font-family: Spectral;
   font-weight: 400;
@@ -89,6 +93,20 @@
   padding-top: 12px;
 }
 
+/* ==== */
+.fag-modes-bg-img-wrapper-right {
+  position: absolute;
+  bottom: -94px;
+  right: 14px;
+  transform: rotate(15deg);
+  z-index: -1;
+  width: 212px;
+}
+.fag-modes-bg-img-wrapper-right img {
+  width: 100%;
+  height: auto;
+}
+
 @media screen and (min-width: 1200px) {
   .section-accordion {
     margin-bottom: 146px;
@@ -120,5 +138,12 @@
   .accordion-item.active .accordion-header::after {
     width: calc(100% - 64px);
     margin-left: 32px;
+  }
+
+  /* ====== */
+  .fag-modes-bg-img-wrapper-right {
+    width: 512px;
+    bottom: -201px;
+    right: -18px;
   }
 }
