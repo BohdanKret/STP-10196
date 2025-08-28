@@ -1,13 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const items = document.querySelectorAll('.modes-item');
+  const items = document.querySelectorAll('.js-modes-item');
 
   const observer = new IntersectionObserver(
     entries => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
+          entry.target.classList.add('js-visible');
         } else {
-          entry.target.classList.remove('visible');
+          entry.target.classList.remove('js-visible');
         }
       });
     },

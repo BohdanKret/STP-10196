@@ -1,8 +1,8 @@
-const mobMenu = document.getElementById('mobMenu');
-const backdrop = document.getElementById('backdrop');
-const openBtn = document.getElementById('openMenuBtn');
-const closeBtn = document.getElementById('closeMenuBtn');
-const links = mobMenu.querySelectorAll('a');
+const mobMenu = document.getElementById('js-mobMenu');
+const backdrop = document.getElementById('js-backdrop');
+const openBtn = document.getElementById('js-openMenuBtn');
+const closeBtn = document.getElementById('js-closeMenuBtn');
+const links = mobMenu.querySelectorAll('js-header_nav-link');
 
 openBtn.addEventListener('click', onOpenMenuClick);
 
@@ -30,17 +30,17 @@ document.addEventListener('keydown', e => {
 });
 
 function onOpenMenuClick() {
-  backdrop.classList.add('is-open');
-  mobMenu.classList.add('is-open');
-  openBtn.classList.add('visually-hidden');
-  closeBtn.classList.remove('visually-hidden');
+  backdrop.classList.add('js-is-open');
+  mobMenu.classList.add('js-is-open');
+  openBtn.classList.add('js-visually-hidden');
+  closeBtn.classList.remove('js-visually-hidden');
   document.body.style.overflow = 'hidden';
 }
 
 function onCloseMenuClick() {
-  backdrop.classList.remove('is-open');
-  mobMenu.classList.remove('is-open');
-  closeBtn.classList.add('visually-hidden');
-  openBtn.classList.remove('visually-hidden');
+  backdrop.classList.remove('js-is-open');
+  mobMenu.classList.remove('js-is-open');
+  closeBtn.classList.add('js-visually-hidden');
+  openBtn.classList.remove('js-visually-hidden');
   document.body.style.overflow = 'visible';
 }
