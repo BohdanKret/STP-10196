@@ -10,9 +10,9 @@ accordionHeaders.forEach(header => {
         
     accordionItem.classList.toggle('active');
     if (isActive) {
-      iconUse.setAttribute('href', `${iconsSpritePath}#icon-arrow-up`);
-    } else {
       iconUse.setAttribute('href', `${iconsSpritePath}#icon-arrow-down`);
+    } else {
+      iconUse.setAttribute('href', `${iconsSpritePath}#icon-arrow-up`);
     }
   });
 });
