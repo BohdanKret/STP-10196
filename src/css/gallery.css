@@ -93,9 +93,8 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .section-gallery {
-    margin-bottom: 60px;
-  }
+  /* .section-gallery {
+  } */
   .tytle-gallery {
     font-size: 48px;
     line-height: 54px;

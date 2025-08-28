@@ -4,7 +4,7 @@ const declineBtn = document.querySelector('.cookies-button.decline');
 
 const context = localStorage.getItem('cookieConsent');
 
-if (!context || context === 'declined') {
+if (!context) {
   setTimeout(() => {
     cookiesBanner.classList.remove('visually-hidden');
     cookiesBanner.classList.add('show');

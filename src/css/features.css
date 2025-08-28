@@ -72,6 +72,20 @@
         height: 198px;
         margin-bottom: 0;
         padding: 32px;
+        opacity: 0;
+        transform: translateY(40px);
+        transition: transform 700ms cubic-bezier(0.4, 0, 0.2, 1), opacity 700ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .features-item:nth-child(1),
+    .features-item:nth-child(2),
+    .features-item:nth-child(3) {
+        transform: translateY(-40px);
+    }
+
+    .features-item.animate-in {
+        opacity: 1;
+        transform: translateY(0);
     }
 
     .features-item:nth-child(2),
