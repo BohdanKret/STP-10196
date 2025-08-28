@@ -1,20 +1,19 @@
 import Swiper from "swiper/bundle";
 import "swiper/css/bundle";
 
-// Ініціалізуємо Swiper після повного завантаження сторінки
 window.addEventListener('load', () => {
-  const swiper = new Swiper(".mySwiper", {
+  const swiper = new Swiper(".js-swiper", {
     loop: true,
     spaceBetween: 0,
     centeredSlides: true,
 
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: ".js-swiper-button-next",
+      prevEl: ".js-swiper-button-prev",
     },
 
     pagination: {
-      el: ".swiper-pagination",
+      el: ".js-swiper-pagination",
       clickable: true,
     },
 
@@ -25,18 +24,18 @@ window.addEventListener('load', () => {
       
       1200: {
         slidesPerView: 3,
-        spaceBetween: 0, // У Coverflow відступи керуються іншим параметром
-        effect: 'coverflow', // Це саме те, що створює 3D-ефект
-        coverflowEffect: { // Налаштування ефекту
+        spaceBetween: 0, 
+        effect: 'coverflow',
+        coverflowEffect: { 
           rotate: 0,
           stretch: 0,
           depth: 0,
           modifier: 1,
           slideShadows: false,
-          // scale: 0.8,
+          
         },
         centeredSlides: true,
-        initialSlide: 1, // Починаємо з центрального слайда
+        initialSlide: 1,
         keyboard: {
           enabled: true,
           onlyInViewport: true,
@@ -44,4 +43,4 @@ window.addEventListener('load', () => {
       },
     },
   });
-}); 
+});
