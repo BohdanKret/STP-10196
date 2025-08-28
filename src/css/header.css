@@ -32,7 +32,7 @@
 
 /* .header_nav-link {} */
 
-.header_menu-btn {
+.js-header_menu-btn {
     background: transparent;
     display: flex;
     align-items: center;
@@ -86,7 +86,7 @@
         color: #312307;
     }
 
-    .header_menu-btn {
+    .js-header_menu-btn {
         display: none;
     }
 
