@@ -10,7 +10,7 @@
     transition: bottom 0.6s ease;
 }
 
-.show {
+.js-show {
     bottom: 0;
 }
 

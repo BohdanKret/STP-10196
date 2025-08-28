@@ -52,7 +52,7 @@
   border: none;
 }
 
-.accordion-item.active .accordion-header::after {
+.accordion-item.js-active .accordion-header::after {
   content: '';
   display: block;
   width: calc(100% - 24px);
@@ -64,7 +64,7 @@
   left: 0;
 }
 
-.accordion-item.active .accordion-header {
+.accordion-item.js-active .accordion-header {
   position: relative;
 }
 
@@ -92,7 +92,7 @@
   color: #f4f3f3;
 }
 
-.accordion-item.active .accordion-content {
+.accordion-item.js-active .accordion-content {
   max-height: 200px;
   padding-bottom: 12px;
   padding-top: 12px;
@@ -145,7 +145,7 @@
     line-height: 64px;
   }
 
-  .accordion-item.active .accordion-header::after {
+  .accordion-item.js-active .accordion-header::after {
     width: calc(100% - 64px);
     margin-left: 32px;
   }
