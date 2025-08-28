@@ -1,6 +1,9 @@
+.accordion {
+  overflow: hidden;
+}
+
 .section-accordion {
   position: relative;
-  overflow: hidden;
 }
 
 .accordion-top-title {
@@ -98,8 +101,7 @@
 /* ==== */
 .fag-modes-bg-img-wrapper-right {
   position: absolute;
-  /* bottom: -94px; */
-  top: 276px;
+  top: 266px;
   right: -15px;
   z-index: -1;
   width: 196px;
@@ -151,7 +153,6 @@
   /* ====== */
   .fag-modes-bg-img-wrapper-right {
     width: 392px;
-    /* bottom: -201px; */
     top: 150px;
     right: -5px;
   }
